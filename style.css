@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Dhurjati');;
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	width: 100%;
+	height: 70px;
+	background-attachment: fixed;
+
+}
+
+.logo{
+	
+	padding-left: 20px;
+	padding-top: 10px;
+	transition: 1s;
+}
+
+.logo img:hover{
+	transition-duration: 2s;
+
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+
+
+}
+
+ul{
+	width: auto;
+	float: right;
+	margin-top: -90px;
+	padding-right: 100px;
+
+}
+
+li{
+	display: inline-block;
+	padding: 0px 30px;
+	
+}
+
+a{
+	text-align: center;
+	color: #ff9900;
+	text-decoration: none;
+	font-size: 1.2vw;
+	font-family:'Dhurjati';
+	font-size: 30px;
+}
+
+a:hover{
+	transition-duration: 1s;
+	color: white;
+	text-shadow: 0 0 6px #ffcc66,
+	             0 0 10px #ffcc66,
+	             0 0 15px #ffcc66,
+	             0 0 20px #ccffcc,
+	             0 0 30px #ccffff,
+	             0 0 40px #ccffff,
+	             0 0 50px #ccffff,
+	             0 0 80px #ccffff;
+}
+
+a:before{
+	left: 8px;
+	text-shadow: 2px 0 #00ffea;
+}
+a:after{
+	left: 4px;
+	text-shadow: -2px 0 #00ffea;
+}
+@-webkit-keyframe effect{
+	0%{
+		clip: rect(55px,9999px,56px,0);
+	}
+}
+
+body{
+	
+	background-image: url('images/background1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: -4;
+
+}
+.one{
+	padding-left: 45%;
+	position: absolute;
+	z-index: 2;
+	transition: 4s;
+	
+}
+
+.two{
+	position: absolute;
+	z-index: 1;
+	padding-left: 12%;
+	padding-top: 120px;
+   
+}
+
+
+
+.about{
+	padding-top: 350px;
+	padding-left: 2%;
+	
+    
+    z-index: -10;
+
+}
+
+
+p{
+	padding-top: 3px;
+	padding-left: 10%;
+
+}
+
+p{
+  color: #ff9900; 
+  font-family: "Courier";
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80em;
+  animation: type 8s steps(60, end); 
+}
+
+p:nth-child(2){
+  animation: type2 7s steps(60, end);
+}
+p:nth-child(3){
+  animation: type2 10s steps(60, end);
+}
+p:nth-child(4){
+  animation: type2 14s steps(60, end);
+}
+p:nth-child(5){
+  animation: type2 20s steps(60, end);
+
+}
+
+
+
+.about span{
+  animation: blink 1s infinite;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+
+
+.three{
+	position: absolute;
+	z-index: -1;
+	top: 640px;
+	
+	
+	
+}
+
+
+
+
+
+ .poster .poster1{
+	position: absolute;
+	top: 930px;
+	left: 40%;
+	transition: 2s;
+  
+}
+.poster .poster1 img:hover{
+	transition-duration: 2s;
+	transform: scale(1.3);
+}
+
+
+
+.poster .poster2{
+	position: absolute;
+	top: 910px;
+	left: 54.5%;
+	transition: 2s;
+
+	
+}
+.poster .poster2 img:hover{
+    transition-duration: 2s;
+	transform: scale(1.3);
+  
+}
+
+
+
+
+.poster .poster3{
+	position: absolute;
+	top: 910px;
+	left: 74%;
+	transition: 2s;
+	
+}
+.poster .poster3 img:hover{
+	
+	transition-duration: 2s;
+	transform: scale(1.3);
+  
+}
+
+.four{
+	position: absolute;
+	top: 1280px;
+	left: 55%;
+
+}
+.four2{
+	position: absolute;
+	top: 1450px;
+	left: 46%;
+	z-index: -2;
+
+}
+.five{
+	position: absolute;
+	top: 2080px;
+	left: 2%;
+
+}
+.five2{
+	position: absolute;
+	top: 2100px;
+	left: 32%;
+}
+.five2 h4{
+	padding-top: 100px;
+	 color: #ff9900; 
+  font-family: "Courier";
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80em;
+
+
+}
+.five2 h2{
+	position: absolute;
+	color: #ff9900;
+	text-decoration: none;
+	font-family:'Dhurjati';
+	font-size: 40px;
+
+}
+.five2 h2:hover{
+		transition-duration: 1s;
+	color: white;
+	text-shadow: 0 0 6px #ffcc66,
+	             0 0 10px #ffcc66,
+	             0 0 15px #ffcc66,
+	             0 0 20px #ccffcc,
+	             0 0 30px #ccffff,
+	             0 0 40px #ccffff,
+	             0 0 50px #ccffff,
+	             0 0 80px #ccffff;
+
+}
+
+
+
+.movie h2{
+	position: absolute;
+	left: 40%;
+	top: 90%;
+	color: #ff9900;
+	text-decoration: none;
+	font-family:'Dhurjati';
+	font-size: 40px;
+}
+.movie h2:hover{
+		transition-duration: 1s;
+	color: white;
+	text-shadow: 0 0 6px #ffcc66,
+	             0 0 10px #ffcc66,
+	             0 0 15px #ffcc66,
+	             0 0 20px #ccffcc,
+	             0 0 30px #ccffff,
+	             0 0 40px #ccffff,
+	             0 0 50px #ccffff,
+	             0 0 80px #ccffff;
+	    }
+.movie h5{
+	position: absolute;
+	top: 750px;
+	left: 600px;
+    color: #ff9900; 
+  font-family: "Courier";
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+.movie span{
+	font-weight: bold;
+	font-style: underline;
+	font-size: 20px;
+}
+
+.video1{
+	position: absolute;
+	
+	top: 1410px;
+    left: 50px;
+	
+}
+.video11 h3{
+	position: absolute;
+	top: 1410px;
+	left: 400px;
+	 color: #ff9900; 
+  font-family: "Courier";
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80em;
+}
+
+
+
+.video2{
+	position: absolute;
+	
+	top: 1630px;
+   left:50px;
+	
+}
+.video22 h3{
+	position: absolute;
+	top: 1630px;
+	left: 400px;
+	 color: #ff9900; 
+  font-family: "Courier";
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80em;
+}
+
+
+.video3{
+	position: absolute;
+
+	top: 1850px;
+   left:50px;
+	
+}
+.video33 h3{
+	position: absolute;
+	top: 1850px;
+	left: 400px;
+	 color: #ff9900; 
+  font-family: "Courier";
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80em;
+}
+
