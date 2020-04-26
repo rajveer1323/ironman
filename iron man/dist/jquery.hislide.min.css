@@ -1,0 +1,66 @@
+/* 
+ * jquery.hislide.min.css
+ * Date: 2017-02-15
+ * Version: v1.0.0
+ * Author: Cphayim
+ * Site: https://cphayim.me 
+*/
+
+.hi-slide
+{
+	position:relative;
+	width:754px;
+	height:292px;
+	margin:115px auto 0
+	}
+.hi-slide .hi-next,.hi-slide .hi-prev{
+	position:absolute;
+	top:50%;
+	width:40px;
+	height:80px;
+	margin-top:-40px;
+	border-radius:5px;
+	line-height:80px;
+	text-align:center;
+	cursor:pointer;
+	background-color:#666;
+	color:#fff;
+	opacity:.7;
+	transition:all .6s;
+	font-size:30px
+	}
+	.hi-slide .hi-next:hover,.hi-slide .hi-prev:hover
+	{
+		opacity:1;
+		background-color:#444}
+	.hi-slide .hi-prev
+	{left:-60px}
+	.hi-slide .hi-prev::before
+	{content:'<'}
+	.hi-slide .hi-next
+	{right:-60px}
+	.hi-slide .hi-next::before
+	{content:'>'}
+	.hi-slide>ul{
+		list-style:none;
+		position:relative;
+		width:auto;
+		height:auto;
+		margin:0;
+		padding:0}
+		.hi-slide>ul>li{
+			overflow:hidden;
+			position:absolute;
+			z-index:0;
+			left:400px;
+			top:146px;
+			width:0;
+			height:0;
+			margin:0;
+			padding:0;
+			border:none;
+			background-color:transparent;
+			cursor:pointer
+		}
+		
+			
